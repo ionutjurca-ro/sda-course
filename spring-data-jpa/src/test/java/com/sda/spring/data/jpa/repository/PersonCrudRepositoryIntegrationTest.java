@@ -56,7 +56,7 @@ public class PersonCrudRepositoryIntegrationTest {
         int updatedNumberOfPersons = updatedPersons.size();
 
         // if before > after
-        assert initialNumberOfPersons > updatedNumberOfPersons;
+        assertThat(initialNumberOfPersons).isGreaterThan(updatedNumberOfPersons);
     }
 
     @Test

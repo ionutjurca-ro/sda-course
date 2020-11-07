@@ -1,7 +1,7 @@
-package com.sda.spring.boot.rest.config;
+package com.sda.testing.advanced.config;
 
-import com.sda.spring.boot.rest.model.Book;
-import com.sda.spring.boot.rest.repository.BookRepository;
+import com.sda.testing.advanced.model.Book;
+import com.sda.testing.advanced.repository.BookRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

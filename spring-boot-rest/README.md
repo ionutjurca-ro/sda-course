@@ -11,3 +11,6 @@ TODO:
 - add test support
 - test repository
 - setup remote repository
+
+- add book service
+- add book controller

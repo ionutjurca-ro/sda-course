@@ -1,4 +1,4 @@
-package com.sda.spring.boot.rest.model;
+package com.sda.testing.advanced.model;
 
 import javax.persistence.*;
 import java.time.LocalDate;

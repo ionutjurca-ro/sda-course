@@ -22,6 +22,7 @@
         <module>spring-mvc.xml</module>
         <module>spring-security</module>
         <module>spring-boot-rest</module>
+        <module>testing-advanced</module>
     </modules>
 
     <build>

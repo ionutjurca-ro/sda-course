@@ -1,6 +1,6 @@
-package com.sda.spring.boot.rest.repository;
+package com.sda.testing.advanced.repository;
 
-import com.sda.spring.boot.rest.model.Book;
+import com.sda.testing.advanced.model.Book;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -16,7 +16,7 @@ class BookRepositoryTest {
     private BookRepository bookRepository;
 
     @Test
-    public void testCrud() {
+    void testCrud() {
 
         // create
         Book book = new Book("Test", "Author", LocalDate.of(2020, 10, 18));
@@ -39,5 +39,4 @@ class BookRepositoryTest {
         int afterCount = bookRepository.findAll().size();
         assertThat(beforeCount > afterCount);
     }
-
 }
